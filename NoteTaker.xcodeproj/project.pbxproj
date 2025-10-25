@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+archiveVersion = 1;
+classes = {};
+objectVersion = 56;
+objects = {
+
+/* Begin PBXBuildFile section */
+034E682B2CFA69FA00D815EE /* NoteTakerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034E682A2CFA69FA00D815EE /* NoteTakerApp.swift */; };
+034E682D2CFA6A0E00D815EE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034E682C2CFA6A0E00D815EE /* ContentView.swift */; };
+034E682F2CFA6A1A00D815EE /* Class.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034E682E2CFA6A1A00D815EE /* Class.swift */; };
+034E68312CFA6A2000D815EE /* Lecture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034E68302CFA6A2000D815EE /* Lecture.swift */; };
+034E68332CFA6A2800D815EE /* PreviewBootstrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034E68322CFA6A2800D815EE /* PreviewBootstrap.swift */; };
+034E68352CFA6A2E00D815EE /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034E68342CFA6A2E00D815EE /* Color+Hex.swift */; };
+034E68372CFA6A3500D815EE /* ClassesTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034E68362CFA6A3500D815EE /* ClassesTabView.swift */; };
+034E68392CFA6A3A00D815EE /* ClassDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034E68382CFA6A3A00D815EE /* ClassDetailView.swift */; };
+034E683B2CFA6A4100D815EE /* LectureFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034E683A2CFA6A4100D815EE /* LectureFormView.swift */; };
+034E683D2CFA6A4700D815EE /* ClassFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034E683C2CFA6A4700D815EE /* ClassFormView.swift */; };
+034E683F2CFA6A4C00D815EE /* LectureDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034E683E2CFA6A4C00D815EE /* LectureDetailView.swift */; };
+034E68412CFA6A5200D815EE /* LearnTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034E68402CFA6A5200D815EE /* LearnTabView.swift */; };
+034E68432CFA6A5700D815EE /* SettingsTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034E68422CFA6A5700D815EE /* SettingsTabView.swift */; };
+034E68472CFA6A6A00D815EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 034E68462CFA6A6A00D815EE /* Assets.xcassets */; };
+034E684A2CFA6A6A00D815EE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 034E68482CFA6A6A00D815EE /* Preview Assets.xcassets */; };
+034E684D2CFA6A8400D815EE /* NoteTakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034E684C2CFA6A8400D815EE /* NoteTakerTests.swift */; };
+034E68502CFA6A9000D815EE /* NoteTakerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034E684F2CFA6A9000D815EE /* NoteTakerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+034E684E2CFA6A8A00D815EE /* PBXContainerItemProxy */ = {
+isa = PBXContainerItemProxy;
+containerPortal = 034E681F2CFA698600D815EE /* Project object */;
+proxyType = 1;
+remoteGlobalIDString = 034E68262CFA69BE00D815EE;
+remoteInfo = NoteTaker;
+};
+034E68512CFA6A9400D815EE /* PBXContainerItemProxy */ = {
+isa = PBXContainerItemProxy;
+containerPortal = 034E681F2CFA698600D815EE /* Project object */;
+proxyType = 1;
+remoteGlobalIDString = 034E68262CFA69BE00D815EE;
+remoteInfo = NoteTaker;
+};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+034E68262CFA69BE00D815EE /* NoteTaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoteTaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+034E682A2CFA69FA00D815EE /* NoteTakerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteTakerApp.swift; sourceTree = "<group>"; };
+034E682C2CFA6A0E00D815EE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+034E682E2CFA6A1A00D815EE /* Class.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Class.swift; sourceTree = "<group>"; };
+034E68302CFA6A2000D815EE /* Lecture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture.swift; sourceTree = "<group>"; };
+034E68322CFA6A2800D815EE /* PreviewBootstrap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewBootstrap.swift; sourceTree = "<group>"; };
+034E68342CFA6A2E00D815EE /* Color+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Hex.swift"; sourceTree = "<group>"; };
+034E68362CFA6A3500D815EE /* ClassesTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassesTabView.swift; sourceTree = "<group>"; };
+034E68382CFA6A3A00D815EE /* ClassDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassDetailView.swift; sourceTree = "<group>"; };
+034E683A2CFA6A4100D815EE /* LectureFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LectureFormView.swift; sourceTree = "<group>"; };
+034E683C2CFA6A4700D815EE /* ClassFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassFormView.swift; sourceTree = "<group>"; };
+034E683E2CFA6A4C00D815EE /* LectureDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LectureDetailView.swift; sourceTree = "<group>"; };
+034E68402CFA6A5200D815EE /* LearnTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnTabView.swift; sourceTree = "<group>"; };
+034E68422CFA6A5700D815EE /* SettingsTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTabView.swift; sourceTree = "<group>"; };
+034E68462CFA6A6A00D815EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+034E68482CFA6A6A00D815EE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+034E684C2CFA6A8400D815EE /* NoteTakerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteTakerTests.swift; sourceTree = "<group>"; };
+034E684F2CFA6A9000D815EE /* NoteTakerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteTakerUITests.swift; sourceTree = "<group>"; };
+034E68522CFA6AA300D815EE /* NoteTakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoteTakerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+034E68562CFA6AA300D815EE /* NoteTakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoteTakerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+034E68232CFA69BE00D815EE /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = ( ); runOnlyForDeploymentPostprocessing = 0; };
+034E684B2CFA6A8400D815EE /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = ( ); runOnlyForDeploymentPostprocessing = 0; };
+034E684E2CFA6A9000D815EE /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = ( ); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+034E681E2CFA698600D815EE = {
+isa = PBXGroup;
+children = (
+034E68272CFA69BE00D815EE /* NoteTaker */,
+034E684B2CFA6A7F00D815EE /* NoteTakerTests */,
+034E684E2CFA6A8F00D815EE /* NoteTakerUITests */,
+034E68272CFA69BE00D815EF /* Products */,
+);
+sourceTree = "<group>";
+};
+034E68272CFA69BE00D815EE /* NoteTaker */ = {
+isa = PBXGroup;
+children = (
+034E68292CFA69FA00D815EE /* App */,
+034E68322CFA6A2100D815EE /* Models */,
+034E68362CFA6A2F00D815EE /* Features */,
+034E68322CFA6A2700D815EE /* PreviewSupport */,
+034E68462CFA6A6A00D815EE /* Assets.xcassets */,
+034E68452CFA6A6A00D815EE /* Preview Content */,
+);
+path = NoteTaker;
+sourceTree = "<group>";
+};
+034E68272CFA69BE00D815EF /* Products */ = {
+isa = PBXGroup;
+children = (
+034E68262CFA69BE00D815EE /* NoteTaker.app */,
+034E68522CFA6AA300D815EE /* NoteTakerTests.xctest */,
+034E68562CFA6AA300D815EE /* NoteTakerUITests.xctest */,
+);
+name = Products;
+sourceTree = "<group>";
+};
+034E68292CFA69FA00D815EE /* App */ = {
+isa = PBXGroup;
+children = (
+034E682A2CFA69FA00D815EE /* NoteTakerApp.swift */,
+034E682C2CFA6A0E00D815EE /* ContentView.swift */,
+);
+path = App;
+sourceTree = "<group>";
+};
+034E68322CFA6A2100D815EE /* Models */ = {
+isa = PBXGroup;
+children = (
+034E682E2CFA6A1A00D815EE /* Class.swift */,
+034E68302CFA6A2000D815EE /* Lecture.swift */,
+);
+path = Models;
+sourceTree = "<group>";
+};
+034E68362CFA6A2F00D815EE /* Features */ = {
+isa = PBXGroup;
+children = (
+034E68372CFA6A3000D815EE /* Classes */,
+034E68402CFA6A5200D815EE /* Learn */,
+034E68422CFA6A5700D815EE /* Settings */,
+);
+path = Features;
+sourceTree = "<group>";
+};
+034E68372CFA6A3000D815EE /* Classes */ = {
+isa = PBXGroup;
+children = (
+034E68362CFA6A3500D815EE /* ClassesTabView.swift */,
+034E68382CFA6A3A00D815EE /* ClassDetailView.swift */,
+034E683C2CFA6A4700D815EE /* ClassFormView.swift */,
+034E683A2CFA6A4100D815EE /* LectureFormView.swift */,
+034E683E2CFA6A4C00D815EE /* LectureDetailView.swift */,
+);
+path = Classes;
+sourceTree = "<group>";
+};
+034E68402CFA6A5200D815EE /* Learn */ = {
+isa = PBXGroup;
+children = (
+034E68402CFA6A5200D815EE /* LearnTabView.swift */,
+);
+path = Learn;
+sourceTree = "<group>";
+};
+034E68422CFA6A5700D815EE /* Settings */ = {
+isa = PBXGroup;
+children = (
+034E68422CFA6A5700D815EE /* SettingsTabView.swift */,
+);
+path = Settings;
+sourceTree = "<group>";
+};
+034E68322CFA6A2700D815EE /* PreviewSupport */ = {
+isa = PBXGroup;
+children = (
+034E68322CFA6A2800D815EE /* PreviewBootstrap.swift */,
+034E68342CFA6A2E00D815EE /* Color+Hex.swift */,
+);
+path = PreviewSupport;
+sourceTree = "<group>";
+};
+034E68452CFA6A6A00D815EE /* Preview Content */ = {
+isa = PBXGroup;
+children = (
+034E68482CFA6A6A00D815EE /* Preview Assets.xcassets */,
+);
+path = "Preview Content";
+sourceTree = "<group>";
+};
+034E684B2CFA6A7F00D815EE /* NoteTakerTests */ = {
+isa = PBXGroup;
+children = (
+034E684C2CFA6A8400D815EE /* NoteTakerTests.swift */,
+);
+path = NoteTakerTests;
+sourceTree = "<group>";
+};
+034E684E2CFA6A8F00D815EE /* NoteTakerUITests */ = {
+isa = PBXGroup;
+children = (
+034E684F2CFA6A9000D815EE /* NoteTakerUITests.swift */,
+);
+path = NoteTakerUITests;
+sourceTree = "<group>";
+};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+034E68262CFA69BE00D815EE /* NoteTaker */ = {
+isa = PBXNativeTarget;
+buildConfigurationList = 034E68572CFA6ABF00D815EE /* Build configuration list for PBXNativeTarget "NoteTaker" */;
+buildPhases = (
+034E68222CFA69BE00D815EE /* Sources */,
+034E68232CFA69BE00D815EE /* Frameworks */,
+034E68242CFA69BE00D815EE /* Resources */,
+);
+buildRules = (
+);
+dependencies = (
+);
+name = NoteTaker;
+productName = NoteTaker;
+productReference = 034E68262CFA69BE00D815EE /* NoteTaker.app */;
+productType = "com.apple.product-type.application";
+};
+034E684A2CFA6A7F00D815EE /* NoteTakerTests */ = {
+isa = PBXNativeTarget;
+buildConfigurationList = 034E68582CFA6ABF00D815EE /* Build configuration list for PBXNativeTarget "NoteTakerTests" */;
+buildPhases = (
+034E68492CFA6A7F00D815EE /* Sources */,
+034E684B2CFA6A8400D815EE /* Frameworks */,
+);
+buildRules = (
+);
+dependencies = (
+034E684F2CFA6A8A00D815EE /* PBXTargetDependency */,
+);
+name = NoteTakerTests;
+productName = NoteTakerTests;
+productReference = 034E68522CFA6AA300D815EE /* NoteTakerTests.xctest */;
+productType = "com.apple.product-type.bundle.unit-test";
+};
+034E684D2CFA6A8F00D815EE /* NoteTakerUITests */ = {
+isa = PBXNativeTarget;
+buildConfigurationList = 034E68592CFA6ABF00D815EE /* Build configuration list for PBXNativeTarget "NoteTakerUITests" */;
+buildPhases = (
+034E684C2CFA6A8F00D815EE /* Sources */,
+034E684E2CFA6A9000D815EE /* Frameworks */,
+);
+buildRules = (
+);
+dependencies = (
+034E68512CFA6A9400D815EE /* PBXTargetDependency */,
+);
+name = NoteTakerUITests;
+productName = NoteTakerUITests;
+productReference = 034E68562CFA6AA300D815EE /* NoteTakerUITests.xctest */;
+productType = "com.apple.product-type.bundle.ui-testing";
+};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+034E681F2CFA698600D815EE /* Project object */ = {
+isa = PBXProject;
+attributes = {
+BuildIndependentTargetsInParallel = 1;
+LastSwiftUpdateCheck = 1500;
+LastUpgradeCheck = 1500;
+ORGANIZATIONNAME = "";
+TargetAttributes = {
+034E68262CFA69BE00D815EE = {
+CreatedOnToolsVersion = 15.4;
+};
+034E684A2CFA6A7F00D815EE = {
+CreatedOnToolsVersion = 15.4;
+TestTargetID = 034E68262CFA69BE00D815EE;
+};
+034E684D2CFA6A8F00D815EE = {
+CreatedOnToolsVersion = 15.4;
+TestTargetID = 034E68262CFA69BE00D815EE;
+};
+};
+};
+buildConfigurationList = 034E68202CFA698600D815EE /* Build configuration list for PBXProject "NoteTaker" */;
+compatibilityVersion = "Xcode 14.0";
+developmentRegion = en;
+hasScannedForEncodings = 0;
+knownRegions = (
+en,
+);
+mainGroup = 034E681E2CFA698600D815EE;
+productRefGroup = 034E68272CFA69BE00D815EF /* Products */;
+projectDirPath = "";
+projectRoot = "";
+targets = (
+034E68262CFA69BE00D815EE /* NoteTaker */,
+034E684A2CFA6A7F00D815EE /* NoteTakerTests */,
+034E684D2CFA6A8F00D815EE /* NoteTakerUITests */,
+);
+};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+034E68242CFA69BE00D815EE /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (
+034E684A2CFA6A6A00D815EE /* Preview Assets.xcassets in Resources */,
+034E68472CFA6A6A00D815EE /* Assets.xcassets in Resources */,
+); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+034E68222CFA69BE00D815EE /* Sources */ = {
+isa = PBXSourcesBuildPhase;
+buildActionMask = 2147483647;
+files = (
+034E68432CFA6A5700D815EE /* SettingsTabView.swift in Sources */,
+034E683F2CFA6A4C00D815EE /* LectureDetailView.swift in Sources */,
+034E683B2CFA6A4100D815EE /* LectureFormView.swift in Sources */,
+034E68332CFA6A2800D815EE /* PreviewBootstrap.swift in Sources */,
+034E682D2CFA6A0E00D815EE /* ContentView.swift in Sources */,
+034E68412CFA6A5200D815EE /* LearnTabView.swift in Sources */,
+034E683D2CFA6A4700D815EE /* ClassFormView.swift in Sources */,
+034E68372CFA6A3500D815EE /* ClassesTabView.swift in Sources */,
+034E68352CFA6A2E00D815EE /* Color+Hex.swift in Sources */,
+034E68392CFA6A3A00D815EE /* ClassDetailView.swift in Sources */,
+034E68312CFA6A2000D815EE /* Lecture.swift in Sources */,
+034E682B2CFA69FA00D815EE /* NoteTakerApp.swift in Sources */,
+034E682F2CFA6A1A00D815EE /* Class.swift in Sources */,
+);
+runOnlyForDeploymentPostprocessing = 0;
+};
+034E68492CFA6A7F00D815EE /* Sources */ = {
+isa = PBXSourcesBuildPhase;
+buildActionMask = 2147483647;
+files = (
+034E684D2CFA6A8400D815EE /* NoteTakerTests.swift in Sources */,
+);
+runOnlyForDeploymentPostprocessing = 0;
+};
+034E684C2CFA6A8F00D815EE /* Sources */ = {
+isa = PBXSourcesBuildPhase;
+buildActionMask = 2147483647;
+files = (
+034E68502CFA6A9000D815EE /* NoteTakerUITests.swift in Sources */,
+);
+runOnlyForDeploymentPostprocessing = 0;
+};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+034E684F2CFA6A8A00D815EE /* PBXTargetDependency */ = {
+isa = PBXTargetDependency;
+target = 034E68262CFA69BE00D815EE /* NoteTaker */;
+targetProxy = 034E684E2CFA6A8A00D815EE /* PBXContainerItemProxy */;
+};
+034E68512CFA6A9400D815EE /* PBXTargetDependency */ = {
+isa = PBXTargetDependency;
+target = 034E68262CFA69BE00D815EE /* NoteTaker */;
+targetProxy = 034E68512CFA6A9400D815EE /* PBXContainerItemProxy */;
+};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+034E68532CFA6ABF00D815EE /* Debug */ = {
+isa = XCBuildConfiguration;
+buildSettings = {
+ALWAYS_SEARCH_USER_PATHS = NO;
+CLANG_ANALYZER_NONNULL = YES;
+CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+CLANG_ENABLE_MODULES = YES;
+CLANG_ENABLE_OBJC_ARC = YES;
+CLANG_ENABLE_OBJC_WEAK = YES;
+CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+CLANG_WARN_BOOL_CONVERSION = YES;
+CLANG_WARN_COMMA = YES;
+CLANG_WARN_CONSTANT_CONVERSION = YES;
+CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+CLANG_WARN_EMPTY_BODY = YES;
+CLANG_WARN_ENUM_CONVERSION = YES;
+CLANG_WARN_INFINITE_RECURSION = YES;
+CLANG_WARN_INT_CONVERSION = YES;
+CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+CLANG_WARN_STRICT_PROTOTYPES = YES;
+CLANG_WARN_SUSPICIOUS_MOVE = YES;
+CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+CODE_SIGN_STYLE = Automatic;
+COPY_PHASE_STRIP = NO;
+DEBUG_INFORMATION_FORMAT = dwarf;
+ENABLE_STRICT_OBJC_MSGSEND = YES;
+ENABLE_TESTABILITY = YES;
+GCC_C_LANGUAGE_STANDARD = gnu17;
+GCC_DYNAMIC_NO_PIC = NO;
+GCC_NO_COMMON_BLOCKS = YES;
+GCC_OPTIMIZATION_LEVEL = 0;
+GCC_PREPROCESSOR_DEFINITIONS = (
+"DEBUG=1",
+"$(inherited)",
+);
+GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+GCC_WARN_UNDECLARED_SELECTOR = YES;
+GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+GCC_WARN_UNUSED_FUNCTION = YES;
+GCC_WARN_UNUSED_VARIABLE = YES;
+IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+ONLY_ACTIVE_ARCH = YES;
+SDKROOT = iphoneos;
+};
+name = Debug;
+};
+034E68542CFA6ABF00D815EE /* Release */ = {
+isa = XCBuildConfiguration;
+buildSettings = {
+ALWAYS_SEARCH_USER_PATHS = NO;
+CLANG_ANALYZER_NONNULL = YES;
+CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+CLANG_ENABLE_MODULES = YES;
+CLANG_ENABLE_OBJC_ARC = YES;
+CLANG_ENABLE_OBJC_WEAK = YES;
+CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+CLANG_WARN_BOOL_CONVERSION = YES;
+CLANG_WARN_COMMA = YES;
+CLANG_WARN_CONSTANT_CONVERSION = YES;
+CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+CLANG_WARN_EMPTY_BODY = YES;
+CLANG_WARN_ENUM_CONVERSION = YES;
+CLANG_WARN_INFINITE_RECURSION = YES;
+CLANG_WARN_INT_CONVERSION = YES;
+CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+CLANG_WARN_STRICT_PROTOTYPES = YES;
+CLANG_WARN_SUSPICIOUS_MOVE = YES;
+CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+CODE_SIGN_STYLE = Automatic;
+COPY_PHASE_STRIP = NO;
+DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+ENABLE_NS_ASSERTIONS = NO;
+ENABLE_STRICT_OBJC_MSGSEND = YES;
+GCC_C_LANGUAGE_STANDARD = gnu17;
+GCC_NO_COMMON_BLOCKS = YES;
+GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+GCC_WARN_UNDECLARED_SELECTOR = YES;
+GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+GCC_WARN_UNUSED_FUNCTION = YES;
+GCC_WARN_UNUSED_VARIABLE = YES;
+IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+MTL_ENABLE_DEBUG_INFO = NO;
+SDKROOT = iphoneos;
+VALIDATE_PRODUCT = YES;
+};
+name = Release;
+};
+034E685A2CFA6ABF00D815EE /* Debug */ = {
+isa = XCBuildConfiguration;
+buildSettings = {
+ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+GENERATE_INFOPLIST_FILE = YES;
+INFOPLIST_FILE = NoteTaker/Info.plist;
+IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+PRODUCT_BUNDLE_IDENTIFIER = com.example.NoteTaker;
+PRODUCT_NAME = "$(TARGET_NAME)";
+SWIFT_VERSION = 5.0;
+TARGETED_DEVICE_FAMILY = "1,2";
+};
+name = Debug;
+};
+034E685B2CFA6ABF00D815EE /* Release */ = {
+isa = XCBuildConfiguration;
+buildSettings = {
+ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+GENERATE_INFOPLIST_FILE = YES;
+INFOPLIST_FILE = NoteTaker/Info.plist;
+IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+PRODUCT_BUNDLE_IDENTIFIER = com.example.NoteTaker;
+PRODUCT_NAME = "$(TARGET_NAME)";
+SWIFT_VERSION = 5.0;
+TARGETED_DEVICE_FAMILY = "1,2";
+};
+name = Release;
+};
+034E685C2CFA6ABF00D815EE /* Debug */ = {
+isa = XCBuildConfiguration;
+buildSettings = {
+GENERATE_INFOPLIST_FILE = YES;
+INFOPLIST_FILE = NoteTakerTests/Info.plist;
+LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+PRODUCT_BUNDLE_IDENTIFIER = com.example.NoteTakerTests;
+PRODUCT_NAME = "$(TARGET_NAME)";
+SWIFT_VERSION = 5.0;
+};
+name = Debug;
+};
+034E685D2CFA6ABF00D815EE /* Release */ = {
+isa = XCBuildConfiguration;
+buildSettings = {
+GENERATE_INFOPLIST_FILE = YES;
+INFOPLIST_FILE = NoteTakerTests/Info.plist;
+LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+PRODUCT_BUNDLE_IDENTIFIER = com.example.NoteTakerTests;
+PRODUCT_NAME = "$(TARGET_NAME)";
+SWIFT_VERSION = 5.0;
+};
+name = Release;
+};
+034E685E2CFA6ABF00D815EE /* Debug */ = {
+isa = XCBuildConfiguration;
+buildSettings = {
+GENERATE_INFOPLIST_FILE = YES;
+INFOPLIST_FILE = NoteTakerUITests/Info.plist;
+LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+PRODUCT_BUNDLE_IDENTIFIER = com.example.NoteTakerUITests;
+PRODUCT_NAME = "$(TARGET_NAME)";
+SWIFT_VERSION = 5.0;
+};
+name = Debug;
+};
+034E685F2CFA6ABF00D815EE /* Release */ = {
+isa = XCBuildConfiguration;
+buildSettings = {
+GENERATE_INFOPLIST_FILE = YES;
+INFOPLIST_FILE = NoteTakerUITests/Info.plist;
+LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+PRODUCT_BUNDLE_IDENTIFIER = com.example.NoteTakerUITests;
+PRODUCT_NAME = "$(TARGET_NAME)";
+SWIFT_VERSION = 5.0;
+};
+name = Release;
+};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+034E68202CFA698600D815EE /* Build configuration list for PBXProject "NoteTaker" */ = {
+isa = XCConfigurationList;
+buildConfigurations = (
+034E68532CFA6ABF00D815EE /* Debug */,
+034E68542CFA6ABF00D815EE /* Release */,
+);
+defaultConfigurationIsVisible = 0;
+defaultConfigurationName = Release;
+};
+034E68572CFA6ABF00D815EE /* Build configuration list for PBXNativeTarget "NoteTaker" */ = {
+isa = XCConfigurationList;
+buildConfigurations = (
+034E685A2CFA6ABF00D815EE /* Debug */,
+034E685B2CFA6ABF00D815EE /* Release */,
+);
+defaultConfigurationIsVisible = 0;
+defaultConfigurationName = Release;
+};
+034E68582CFA6ABF00D815EE /* Build configuration list for PBXNativeTarget "NoteTakerTests" */ = {
+isa = XCConfigurationList;
+buildConfigurations = (
+034E685C2CFA6ABF00D815EE /* Debug */,
+034E685D2CFA6ABF00D815EE /* Release */,
+);
+defaultConfigurationIsVisible = 0;
+defaultConfigurationName = Release;
+};
+034E68592CFA6ABF00D815EE /* Build configuration list for PBXNativeTarget "NoteTakerUITests" */ = {
+isa = XCConfigurationList;
+buildConfigurations = (
+034E685E2CFA6ABF00D815EE /* Debug */,
+034E685F2CFA6ABF00D815EE /* Release */,
+);
+defaultConfigurationIsVisible = 0;
+defaultConfigurationName = Release;
+};
+/* End XCConfigurationList section */
+
+};
+rootObject = 034E681F2CFA698600D815EE /* Project object */;
+}
